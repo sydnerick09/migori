@@ -48,7 +48,7 @@ export default function PaymentContent() {
           Amount: <strong>KSh {costs[pkg]}</strong>
         </p>
 
-        <button onClick={pay}>Pay with M-Pesa (Paystack)</button>
+        <button className={styles.btn} onClick={pay}>Pay with M-Pesa (Paystack)</button>
       </div>
     </main>
   );
